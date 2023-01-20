@@ -288,6 +288,7 @@ button:hover {
     body {
         padding-left: 3%;
         padding-right: 3%;
+        padding-top: 3%;
     }
     
     .logo {
@@ -366,10 +367,6 @@ button:hover {
         left: -80vw;
         top: 25%;
         z-index: 4;
-    }
-
-    .toggler:checked ~ .item {
-        color: chartreuse;
     }
 
     .toggler:checked ~ .menu-overlay {
